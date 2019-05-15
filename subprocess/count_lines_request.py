@@ -21,4 +21,4 @@ def count_lines_safe(website):
     process_curl.stdout.close()
     return process_wc.communicate()[0]
 	
-print(count_lines_safe('www.google.com & touch fle'))
+print(count_lines_unsafe('www.google.com & touch file'))

@@ -1,4 +1,3 @@
-# flask-example-xss.py
 from flask import Flask
 from flask import request, render_template_string, render_template
 app = Flask(__name__)
